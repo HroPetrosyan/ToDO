@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+}
+button{
+    border-radius: 3px;
+}
+h1{
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 200;
+}
+.boxbody{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box{
+    margin-top: 10px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+.add{
+    width: 440px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.add input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid rgb(190, 190, 190);
+    cursor: pointer;
+    padding-left: 5px;
+}
+.add button{
+    width: 30px;
+    height: 30px;
+    color: white;
+    border: none;
+    background-color: purple;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 600;
+}
+.clearAll{
+    background-color: #e00000;
+}
+.taskbox{
+    width: 440px;
+    height: 160px;
+}
+.task{
+    width: 440px;
+    height: 30px;
+    display: flex;
+    margin-top: 2px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(224, 224, 224);
+}
+.task button{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 790;
+    cursor: pointer;
+    border: none;
+
+}
+.task input{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+}
+.task p{
+    width: 380px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.about{
+    width: 440px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about button{
+    width: 100px;
+    height: 35px;
+    border: none;
+    color: white;
+    background-color: purple;
+    cursor: pointer;
+}
